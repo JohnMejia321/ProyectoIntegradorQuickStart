@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductDetailsComponent implements OnInit {
 
-  constructor() { }
+  product: Product | undefined;
+
+  constructor(private route: ActivatedRoute) { }
+
+}
 
   ngOnInit(): void {
   }
 
-}
+
