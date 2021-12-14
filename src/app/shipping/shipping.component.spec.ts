@@ -2,10 +2,6 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ShippingComponent } from './shipping.component';
 
-import { Component } from '@angular/core';
-
-import { CartService } from '../cart.service';
-
 describe('ShippingComponent', () => {
   let component: ShippingComponent;
   let fixture: ComponentFixture<ShippingComponent>;
