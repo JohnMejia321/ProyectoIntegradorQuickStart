@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     AppComponent,
     ProductListComponent,
     TopBarComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
